@@ -1,0 +1,213 @@
+body {
+    background-color: #090f1e !important;
+    font-family: -apple-system,SF Pro Text,sans-serif;
+    @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+}
+
+.get {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+    flex: 1 1 0%;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    transition: box-shadow 0.32s linear 0s, opacity 0.32s linear 0s;
+    border: none;
+    border-radius: 15px 7px 7px 15px;
+    cursor: pointer;
+    @import url("fonts/roboto/stylesheet.css")
+    font-family: "Halvar Breit Md";
+    color: rgb(250, 250, 250);
+    background: radial-gradient(100.44% 229.58% at 100.44% 100%, rgb(0, 157, 255) 0%, rgb(0, 85, 255) 100%);
+}
+
+.out-num {
+    color: white;
+    font-size: 1em;
+    margin: 0 auto;
+    display: block;
+}
+.registration-social{
+    font-size: 100%;
+    font-family: -apple-system,SF Pro Text,sans-serif;
+    --safe-area-inset-top: env(safe-area-inset-top);
+    --safe-area-inset-right: env(safe-area-inset-right);
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
+    --safe-area-inset-left: env(safe-area-inset-left);
+    --layout-default-nav-top-height: 45px;
+    --layout-default-busy-height: calc(var(--layout-header-height) + 90px);
+    --vh: 9.71px;
+    --layout-header-height: 61px;
+    --layout-bottom-header-height: 0px;
+    line-height: normal;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    --modal-layout__opacity-bg: .98;
+    box-sizing: inherit;
+    padding: 25px;
+    color: #090f1e;
+    width: 100%;
+}
+
+.card-main-content[data-v-ec7da6bc] {
+    padding: 44px 20px 20px;
+}
+
+.card-title[data-v-ec7da6bc] {
+    font-family: 'SF Pro Display', sans-serif;
+    @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+    --safe-area-inset-top: env(safe-area-inset-top);
+    --safe-area-inset-right: env(safe-area-inset-right);
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
+    --safe-area-inset-left: env(safe-area-inset-left);
+    --layout-default-nav-top-height: 45px;
+    --layout-default-busy-height: calc(var(--layout-header-height) + 90px);
+    --vh: 9.71px;
+    --layout-header-height: 61px;
+    --layout-bottom-header-height: 0px;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    --modal-layout__opacity-bg: .98;
+    box-sizing: inherit;
+    color: #090f1e;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: .9;
+    text-align: center;
+    letter-spacing: -1.3px;
+}
+
+.card-subtitle[data-v-ec7da6bc] {
+    color: #090f1e;
+    font-size: 14px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+[data-v-6eaf3e67] .submit-btn {
+    width: 100%;
+}
+
+.button.md {
+    height: 40px;
+}
+.button.primary {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom right,#0095ff,#0855c4);
+    box-shadow: 0 6px 22px 0 rgba(5,109,218,.3);
+}
+
+.button, a.button:-webkit-any-link, a.button:link, a.button:visited {
+    color: #fff;
+}
+
+.button {
+    border: 0;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    height: 36px;
+    min-width: 36px;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+#reg-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button-content {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    transition: all .2s;
+    width: 100%;
+    line-height: 115%;
+}
+
+.submit-btn {
+    width: 80%;
+}
+
+.input-container[data-v-5082ee8c] {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.input.light-grey[data-v-5082ee8c], .input.white-outline[data-v-5082ee8c] {
+    caret-color: #1a88f3;
+    color: rgba(9,15,30,.8);
+    font-size: 13px;
+    background-color: rgba(148,166,205,.2);
+    color: #6a7690;
+    border-radius: 12px;
+    padding: 5px 0 5px 15px;
+    transition: all .2s;
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input[data-v-5082ee8c] {
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+button, input, select, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: initial;
+    border: none;
+    font-family: inherit;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+
+#copy {
+    margin-top: 15px;
+    font-size: 0.8em;
+    color: #6a7690;
+}
+
