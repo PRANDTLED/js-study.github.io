@@ -10,5 +10,5 @@ function myFunction() {
     navigator.clipboard.writeText(copyText.value);
 
     /* Выводим скопированный текст в диалоговом окне */
-    alert("Скопированный текст: " + copyText.value);
+    alert("Промокод скопирован: " + copyText.value);
 }
